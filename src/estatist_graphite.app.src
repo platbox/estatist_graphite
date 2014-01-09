@@ -1,0 +1,13 @@
+{application, estatist_graphite,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  estatist
+                 ]},
+  {mod, {estatist_graphite, []}},
+  {env, []}
+ ]}.
